@@ -1,15 +1,15 @@
 # Expense-Tracker-project
 Overview
 
-Project Name: Expense Tracker
+* Project Name: Expense Tracker
 
-Technologies Used: Java, Java Swing, JDBC, MySQL
+* Technologies Used: Java, Java Swing, JDBC, MySQL
 
-Objective
+* Objective:
 
 The primary objective of the Expense Tracker project is to provide users with an efficient and user-friendly application to track their daily expenses. This tool helps individuals categorize expenses, set budgets, and analyze spending habits to promote better financial management.
 
-Key Features
+* Key Features:
 
 -User Authentication: Secure login functionality to ensure that only authorized users can access their data.
 
@@ -24,7 +24,7 @@ Key Features
 -Budgeting: Users can set monthly budgets and track their spending against these budgets.
 Architecture
 
-The application follows a three-tier architecture:
+* The application follows a three-tier architecture:
 
 -Presentation Layer: Built with Java Swing, providing a graphical user interface for interaction.
 
@@ -33,21 +33,21 @@ The application follows a three-tier architecture:
 -Data Access Layer: Uses JDBC to connect to a MySQL database, performing all database operations.
 Data Structure
 
-The database consists of a table for expenses with the following columns:
+* The database consists of a table for expenses with the following columns:
 
-ExpenseID (Primary Key)
+-ExpenseID (Primary Key)
 
-Amount
+-Amount
 
-Category
+-Category
 
-Date
+-Date
 
 -Description
 
 -UserID (to associate expenses with users)
 
-Implementation Highlights
+* Implementation Highlights:
 
 -Data Integrity: Used constraints in MySQL to maintain data integrity, including primary keys and foreign keys.
 
@@ -55,13 +55,13 @@ Implementation Highlights
 
 -User-Centric Design: Iterated the UI design based on user feedback to ensure usability and accessibility.
 
-Challenges Faced
+* Challenges Faced:
 
 -Database Connection Management: Initially faced performance issues due to poor connection management, which I resolved by implementing connection pooling.
 
 -User Interface Design: It took multiple iterations to create an intuitive UI, but user testing helped refine the design.
 
-Future Improvements
+* Future Improvements:
 
 -Enhancing UI: Transitioning to JavaFX for a more modern and responsive user interface.
 
@@ -69,7 +69,7 @@ Future Improvements
 
 -Data Visualization: Adding graphical representations of spending habits, such as charts and graphs, to help users understand their financial behavior better.
 
-Conclusion
+* Conclusion:
 
 This Expense Tracker project has provided me with hands-on experience in application development, database management, and user-centered design. It highlights my ability to create functional, efficient software solutions that address real-world problems.
 
