@@ -43,20 +43,34 @@ Category
 
 Date
 
-Description
-UserID (to associate expenses with users)
+-Description
+
+-UserID (to associate expenses with users)
+
 Implementation Highlights
-Data Integrity: Used constraints in MySQL to maintain data integrity, including primary keys and foreign keys.
-Efficiency: Implemented connection pooling in JDBC to enhance performance by reusing database connections.
-User-Centric Design: Iterated the UI design based on user feedback to ensure usability and accessibility.
+
+-Data Integrity: Used constraints in MySQL to maintain data integrity, including primary keys and foreign keys.
+
+-Efficiency: Implemented connection pooling in JDBC to enhance performance by reusing database connections.
+
+-User-Centric Design: Iterated the UI design based on user feedback to ensure usability and accessibility.
+
 Challenges Faced
-Database Connection Management: Initially faced performance issues due to poor connection management, which I resolved by implementing connection pooling.
-User Interface Design: It took multiple iterations to create an intuitive UI, but user testing helped refine the design.
+
+-Database Connection Management: Initially faced performance issues due to poor connection management, which I resolved by implementing connection pooling.
+
+-User Interface Design: It took multiple iterations to create an intuitive UI, but user testing helped refine the design.
+
 Future Improvements
-Enhancing UI: Transitioning to JavaFX for a more modern and responsive user interface.
-Web Version: Considering developing a web application using Spring Boot and RESTful APIs to increase accessibility.
-Data Visualization: Adding graphical representations of spending habits, such as charts and graphs, to help users understand their financial behavior better.
+
+-Enhancing UI: Transitioning to JavaFX for a more modern and responsive user interface.
+
+-Web Version: Considering developing a web application using Spring Boot and RESTful APIs to increase accessibility.
+
+-Data Visualization: Adding graphical representations of spending habits, such as charts and graphs, to help users understand their financial behavior better.
+
 Conclusion
+
 This Expense Tracker project has provided me with hands-on experience in application development, database management, and user-centered design. It highlights my ability to create functional, efficient software solutions that address real-world problems.
 
 
